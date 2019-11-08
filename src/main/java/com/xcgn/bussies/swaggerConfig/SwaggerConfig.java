@@ -19,7 +19,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.xcgn.marry.business.admin"))
+                .apis(RequestHandlerSelectors.basePackage("com.xcgn.bussies.business.admin"))
                 .paths(PathSelectors.any())
                 .build();
     }
